@@ -60,6 +60,44 @@ Instrumental Amplifiers
 ADA4554			dig
 ADA4255
 
+##  OP Amps  ___________________________________________________________________
+
+				Cost	Cost	GBW		SR		Vos		Drift	Bias	Vn
+				TI		DK		MHz		V/µs	mV		µV/°C	pA		nV/√Hz
+	16V
+TLV9102			$0.251			1.1		4.5		1.5		0.6		±10		30
+TLV9152			$0.358			4.5		21		0.75	0.3				10.8
+
+	32V
+OPA2990			$0.508			1.1		4.5		1.5		0.6		±10		30
+
+##  3-wire 4-20 mA signal conditioners
+
+		3-Wire	Price	Price	Package
+				TI		DK
+XTR111	*		$0.629	$1.74	VSON-10
+XTR117			$0.790	$2.13
+XTR305	*		$0.924	$2.45	VQFN-20			-5V
+XTR115			$1.209	$3.12
+XTR116			$1.386	$3.52
+
+FETs for XTR111
+OnSemi			NTF2955		->		STMicro		STN3P6F6	$1.37	switch?
+Infineon		BSP170P		$0.88 DK
+Supertrex		TP2510		$1.54 DK
+
+STMicro			STS5P3LLH6	$1.23 DK <-
+
+BJT
+OnSemi			MMBT2907A
+Nexperia		PMBT2907A		 <-
+Diodes Inc		MMBT2907A-7-F	$0.14
+
+
+https://electronics.stackexchange.com/questions/450864/how-can-i-plug-a-3-wire-4-20ma-current-sink-probe-into-a-2-wire-4-20ma-loop-powe
+
+
+
 
 ####  Calculations  ____________________________________________________________
 
@@ -73,13 +111,3 @@ https://habr.com/ru/articles/695556/
 https://habr.com/ru/articles/729048/
 
 
-####  OP Amps  _________________________________________________________________
-
-				Cost	Cost	GBW		SR		Vos		Drift	Bias	Vn
-				TI		DK		MHz		V/µs	mV		µV/°C	pA		nV/√Hz
-	16V
-TLV9102			$0.251			1.1		4.5		1.5		0.6		±10		30
-TLV9152			$0.358			4.5		21		0.75	0.3				10.8
-
-	32V
-OPA2990			$0.508			1.1		4.5		1.5		0.6		±10		30
