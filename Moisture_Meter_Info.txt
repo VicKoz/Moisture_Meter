@@ -96,6 +96,30 @@ Diodes Inc		MMBT2907A-7-F	$0.14
 
 https://electronics.stackexchange.com/questions/450864/how-can-i-plug-a-3-wire-4-20ma-current-sink-probe-into-a-2-wire-4-20ma-loop-powe
 
+##  Case
+
+D2MG PCB
+https://www.chipdip.by/product/d2mg-pcb-a?from=rec_product
+https://static.chipdip.ru/lib/006/DOC001006139.pdf
+
+Dinrail
+https://static.chipdip.ru/lib/920/DOC023920435.pdf
+
+D2MG
+https://static.chipdip.ru/lib/849/DOC037849417.pdf
+
+BS37BK
+https://www.chipdip.by/product/bs37bk
+
+G0124F
+https://www.chipdip.by/product/g0124f
+111 x 60 x 30
+Плата с учётом внутренних выступов получается 90 х 50
+
+G0473F
+https://www.chipdip.by/product/g0473f
+119 х 93.5 х 34
+Плата 100 х 85 
 
 
 
